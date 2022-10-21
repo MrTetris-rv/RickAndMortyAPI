@@ -1,0 +1,73 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(32, 35, 41);
+  font-family: "Libre Franklin", sans-serif;
+}
+.wrapper {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: rgb(60, 62, 68);
+  box-shadow: 10px 0 10px rgb(45, 52, 54);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 260px;
+  height: 400px;
+  border-radius: 9px;
+  align-items: center;
+  color: white;
+}
+.imgCard {
+  width: 220px;
+}
+.mainInfo {
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nameStyle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  width: 120px;
+}
+.status {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.descriptionText {
+  color: grey;
+  margin-top: 10px;
+}
+.position {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 40px;
+}
+.header {
+  line-height: 4;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  background: url("https://phonoteka.org/uploads/posts/2021-06/1624058904_6-phonoteka_org-p-rik-i-morti-oboi-krasivo-6.jpg");
+  background-position-y: 35%;
+  height: 200px;
+  text-shadow: 3px 1px 20px black;
+  font-weight: bold;
+}
